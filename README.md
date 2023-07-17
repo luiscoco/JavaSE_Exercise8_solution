@@ -11,6 +11,7 @@
 ![Github actions image 3](https://github.com/luiscoco/JavaSE_Exercise8_solution/assets/32194879/51d033a2-3bc8-4098-80bb-997305d51d44)
 
 
+![Github actions image 4](https://github.com/luiscoco/JavaSE_Exercise8_solution/assets/32194879/ef4b5721-c406-4e93-bd48-fdf7401639ab)
 
 
 
