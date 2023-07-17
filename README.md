@@ -14,6 +14,34 @@
 ![Github actions image 4](https://github.com/luiscoco/JavaSE_Exercise8_solution/assets/32194879/ef4b5721-c406-4e93-bd48-fdf7401639ab)
 
 
+## build.yml file
 
+```yml
+name: Java Build
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set up JDK
+        uses: actions/setup-java@v1
+        with:
+          java-version: '11'
+
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Compile Java
+        run: javac -d . *.java
+```
 
 
